@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <style>
+        .logo {
+            width: 30px;
+            height: auto;
+        }
+
+        .bg-img {
+            background-image: url("https://images.unsplash.com/photo-1587614382346-4ec70e388b28?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .opacity-1 {
+            background: rgba(255, 255, 255, 0.6);
+        }
+
+        .services-logo {
+            width: 70px;
+            height: auto;
+        }
+
+        footer {
+            background: #16A085;
+            color: #fff;
+        }
+
+        .md-icon {
+            height: 30px;
+            width: 30px;
+        }
+
+
+        .copyright {
+            background: #0e6453;
+            color: #74ecd4;
+            font-size: 0.9rem;
+        }
+
+        .sm-icon {
+            width: 20px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light container">
+        <a class="navbar-brand" href="#">
+            <img src="https://image.flaticon.com/icons/svg/595/595569.svg" alt="" class="logo">
+            YiCheng
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#project">Project</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#blog">Blog</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <header id="home" class="jumbotron bg-img mb-0">
+        <div class="card p-4 opacity-1">
+            <h1 class="display-4">Hello, world!</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention
+                to
+                featured content or information.</p>
+            <hr class="my-2">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <div class="d-flex justify-content-end">
+                <a class="btn btn-outline-info mr-2" href="#" role="button">Learn more</a>
+                <a class="btn btn-info" href="#" role="button">Contact</a>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- About us -->
+    <section id="about" class="py-5" style="background-color: #cdf8ef;">
+        <div class="container">
+            <h3 class="text-center mb-4">ABOUT</h3>
+            <div class="row justify-content-center">
+                <div class="col col-sm-8">
+                    <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download
+                        includes
+                        the
+                        complete
+                        source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy
+                        customization.</p>
+
+                    <p class="lead">You can create your own custom avatar for the masthead, change the icon in the
+                        dividers,
+                        and
+                        add your
+                        email address to the contact form to make it fully functional!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="container my-5">
+        <h2 class="text-center mb-5">At Your Service</h2>
+        <div class="row">
+            <div class="col-md-3 px-2">
+                <div class="text-center">
+                    <img src="https://image.flaticon.com/icons/svg/3141/3141985.svg" alt="" class="services-logo">
+                    <h4 class="my-2">Sturdy Themes</h4>
+                    <p class="h5 text-muted">Our themes are updated regularly to keep them bug free!</p>
+                </div>
+            </div>
+            <div class="col-md-3 px-2 mt-4 mt-md-0">
+                <div class="text-center">
+                    <img src="https://image.flaticon.com/icons/svg/3141/3141985.svg" alt="" class="services-logo">
+                    <h4 class="my-2">Sturdy Themes</h4>
+                    <p class="h5 text-muted">Our themes are updated regularly to keep them bug free!</p>
+                </div>
+            </div>
+            <div class="col-md-3 px-2 mt-4 mt-md-0">
+                <div class="text-center">
+                    <img src="https://image.flaticon.com/icons/svg/3141/3141985.svg" alt="" class="services-logo">
+                    <h4 class="my-2">Sturdy Themes</h4>
+                    <p class="h5 text-muted">Our themes are updated regularly to keep them bug free!</p>
+                </div>
+            </div>
+            <div class="col-md-3 px-2 mt-4 mt-md-0">
+                <div class="text-center">
+                    <img src="https://image.flaticon.com/icons/svg/3141/3141985.svg" alt="" class="services-logo">
+                    <h4 class="my-2">Sturdy Themes</h4>
+                    <p class="h5 text-muted">Our themes are updated regularly to keep them bug free!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="project" class="container-fluid px-0">
+        <div class="row no-gutters">
+            <div class="col-sm-6 col-md-4">
+                <img src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="" class="img-fluid">
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                    alt="" class="img-fluid">
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <img src="https://images.pexels.com/photos/34140/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                    alt="" class="img-fluid">
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <img src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="" class="img-fluid">
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                    alt="" class="img-fluid">
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <img src="https://images.pexels.com/photos/34140/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                    alt="" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog" class="container my-5">
+        <h2 class="text-center font-weight-bold">Articles</h2>
+        <p class="text-center font-weight-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,
+            quisquam?</p>
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/796602/pexels-photo-796602.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Business Planning</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-dark btn-block">View more...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4 mt-md-0">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/796602/pexels-photo-796602.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Business Planning</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-dark btn-block">View more...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4 mt-md-0">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/796602/pexels-photo-796602.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Business Planning</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-dark btn-block">View more...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5 class="mb-4">Apple Inc.</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam similique blanditiis nisi labore
+                        architecto</p>
+                    <div class="d-flex">
+                        <img src="https://image.flaticon.com/icons/svg/1384/1384053.svg" alt="" class="md-icon mr-2">
+                        <img src="https://image.flaticon.com/icons/svg/1409/1409946.svg" alt="" class="md-icon mr-2">
+                        <img src="https://image.flaticon.com/icons/svg/174/174857.svg" alt="" class="md-icon mr-2">
+                    </div>
+                </div>
+                <div class="col-md-4  mt-4 mt-md-0">
+                    <h5 class="mb-4">Sitemap</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Home</a></li>
+                        <li><a href="#" class="text-white">Project</a></li>
+                        <li><a href="#" class="text-white">Services</a></li>
+                        <li><a href="#" class="text-white">Blog</a></li>
+                        <li><a href="#" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mt-4 mt-md-0">
+                    <h5 class="mb-4">Contact</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <img src="https://image.flaticon.com/icons/svg/684/684809.svg" class="sm-icon">
+                            高雄市三民區壽昌路197號</li>
+                        <li>
+                            <img src="https://image.flaticon.com/icons/svg/2947/2947981.svg" class="sm-icon">
+                            0911-111-222</li>
+                        <li>
+                            <img src="https://image.flaticon.com/icons/svg/561/561127.svg" class="sm-icon">
+                            abcd@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="text-center copyright py-2">
+        2018 &copy; Copyright Big Boy Rights Reserved
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

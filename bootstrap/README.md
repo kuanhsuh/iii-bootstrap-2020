@@ -39,3 +39,5 @@
 [] section - about us
 
 [] CSS - Flex
+
+[] page - landing page
