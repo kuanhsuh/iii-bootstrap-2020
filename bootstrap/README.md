@@ -50,10 +50,17 @@
 
 [] CSS - border-box vs content box
 
+[] CSS - Position
+
 [] section - contact us form
 
-[] page - blog page
+[] section - content form
 
 [] page - category page
 
-[] page - ecommerce page
+[] page - category page
+https://startbootstrap.github.io/startbootstrap-clean-blog-jekyll/2020/01/31/man-must-explore.html
+
+https://startbootstrap.github.io/startbootstrap-grayscale/
+
+[] page - contact page
