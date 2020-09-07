@@ -5,24 +5,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            /* border: 1px solid gray; */
+        }
+
+        /* flex vs inline-flex */
+
+        /* inline-block */
+
+        .inline-block {
+            display: inline-block;
+        }
+
+        .card {
+            width: 300px;
+            border: 1px solid gray;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+        }
+
+        .card--description {
+            padding: 1rem;
+        }
+
+        .card--title {
+            margin-bottom: 1rem;
+        }
+
+        .card--link {
+            margin-top: 1rem;
+            display: inline-block;
+            padding: 1rem;
+            background: mediumaquamarine;
+            color: white;
+        }
+
+    </style>
 </head>
 
 <body>
-    <!-- w3school link
-    https://www.w3schools.com/html/html_blocks.asp
-    https://zh-tw.learnlayout.com/display.html
-    -->
-
     <!-- Block -->
 
-    <!-- inline -->
+    <!-- <h1>Hello World</h1>
+    <h3>This is a test</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum voluptas sequi qui repellat nobis? Eaque quos atque
+        expedita illo voluptate perspiciatis iure, repudiandae, incidunt quisquam error reiciendis maiores vitae itaque
+        cumque nihil fugiat ad saepe debitis aliquid aliquam repellat sequi?</p> -->
 
 
-    <!-- inline block
-    https://www.w3schools.com/css/css_inline-block.asp
-    it can apply height and width values
-    behaves as a block element and don’t force to line break
-    -->
+    <!-- Inline -->
+
+    <!-- <div>
+        Mar.30 2019 | <strong>Danny Huang</strong> | <a href="https://google.com">Google</a>
+    </div> -->
+
+    <!-- Card Excercise  -->
+
+    <div class="card">
+        <img src="https://www.w3schools.com/bootstrap4/img_avatar3.png" alt="">
+        <div class="card--description">
+            <h3 class="card--title">John Doe</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, voluptatum.</p>
+            <a href="#" class="card--link">See Profile</a>
+        </div>
+    </div>
 </body>
 
 </html>

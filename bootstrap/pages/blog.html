@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <style>
+        .logo {
+            width: 30px;
+            height: auto;
+        }
+
+        .bg-img {
+            background-image: url("https://images.unsplash.com/photo-1587614382346-4ec70e388b28?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 400px;
+        }
+
+        .opacity-1 {
+            background: rgba(255, 255, 255, 0.6);
+        }
+
+        .relative {
+            position: relative;
+        }
+
+        .absolute {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .card-width {
+            width: 80%;
+        }
+
+        @media screen and (max-width: 600px) {
+            .card-width {
+                width: 100%;
+            }
+        }
+
+        .blockquote-border {
+            border-left: 3px solid gray;
+            padding: 0 1rem;
+        }
+
+        p {
+            color: #7F8C8D;
+        }
+
+        footer {
+            background: #ddd;
+        }
+
+        a,
+        a:hover {
+            color: #627585;
+            text-decoration: none;
+        }
+
+        .copyright {
+            color: #bbb;
+            font-size: 0.8rem;
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light container">
+        <a class="navbar-brand" href="#">
+            <img src="https://image.flaticon.com/icons/svg/595/595569.svg" alt="" class="logo">
+            YiCheng
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <!-- Header -->
+    <header class="jumbotron bg-img relative">
+        <div class="card p-4 opacity-1 absolute card-width">
+            <h1 class="display-5">Lorem ipsum dolor sit amet consectetur.</h1>
+            <div>Posted by Start Bootstrap on January 31, 2020 · 4 mins read</div>
+        </div>
+    </header>
+
+    <!-- Content -->
+    <section>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-9 col-lg-7">
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nostrum magnam accusamus
+                        asperiores
+                        esse
+                        obcaecati
+                        illo debitis praesentium. Molestias, eius quos. Quisquam maxime voluptatum maiores quo
+                        exercitationem aut
+                        cupiditate voluptas deserunt sunt reprehenderit libero, recusandae cum rerum ipsa facere qui.
+                    </p>
+
+                    <p>Lorem ipsum dolor sit <span class="font-weight-bold">amet, consectetur</span> adipisicing <span
+                            class="font-weight-bold">elit.</span> Provident
+                        facere explicabo sapiente magnam cumque
+                        quidem <span class=" font-weight-bold text-info">ipsam</span>, modi libero itaque doloremque
+                        maiores
+                        quis
+                        <span class=" font-weight-bold text-info">praesentium</span>
+                        recusandae minima odit quaerat non
+                        saepe!
+                        Omnis?</p>
+
+                    <ul>
+                        <li class="my-2">Lorem ipsum dolor sit amet consectetur.</li>
+                        <li class="my-2">Lorem ipsum dolor sit amet consectetur.</li>
+                        <li class="my-2">Lorem ipsum dolor sit amet consectetur.</li>
+                    </ul>
+
+                    <h3 class="mb-4">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi impedit quibusdam exercitationem,
+                        ex
+                        nobis nisi, et, autem voluptatum necessitatibus consequuntur accusantium dignissimos harum
+                        corrupti
+                        alias? Fugiat dolorem impedit soluta sit.</p>
+
+                    <blockquote class="blockquote blockquote-border">
+                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
+                            ante.</p>
+                    </blockquote>
+
+                    <figure class="figure">
+                        <img src="https://images.unsplash.com/photo-1593642634627-6fdaf35209f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+                            class="figure-img img-fluid rounded"
+                            alt="A generic square placeholder image with rounded corners in a figure.">
+                        <figcaption class="figure-caption text-center">A caption for the above image.</figcaption>
+
+                        <h3 class="my-4">Lorem ipsum dolor sit amet consectetur.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi impedit quibusdam
+                            exercitationem,
+                            ex
+                            nobis nisi, et, autem voluptatum necessitatibus consequuntur accusantium dignissimos harum
+                            corrupti
+                            alias? Fugiat dolorem impedit soluta sit.</p>
+                    </figure>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <hr>
+    <!-- Pagination -->
+    <div class="row justify-content-center">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Footer -->
+    <footer class="py-4">
+        <div class="row justify-content-center">
+            <a href="#" class="mr-4">About</a>
+            <a href="#" class="mr-4">Blog</a>
+            <a href="#" class="mr-4">Jobs</a>
+            <a href="#" class="mr-4">Press</a>
+            <a href="#" class="mr-4">Access</a>
+            <a href="#" class="mr-4">Partners</a>
+        </div>
+        <div class="text-center copyright py-2">
+            2018 &copy; Copyright Big Boy Rights Reserved
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

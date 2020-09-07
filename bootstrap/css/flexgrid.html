@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .box-1 {
+            height: 200px;
+            background-color: blue;
+        }
+
+        .box-2 {
+            height: 200px;
+            background-color: skyblue;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .container {
+            width: 960px;
+            margin: 0 auto;
+        }
+
+        .col-md-6 {
+            flex-basis: 50%;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        .col-md-3 {
+            flex-basis: 25%;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        .col-md-4 {
+            flex-basis: 33.33%;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        @media screen and (max-width: 600px) {
+            .container {
+                width: 100%;
+            }
+
+            .col-md-3,
+            .col-md-4,
+            .col-md-6 {
+                flex-basis: 100%;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="box-1"></div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="box-2"></div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="box-1"></div>
+            </div>
+            <div class="col-md-3">
+                <div class="box-2"></div>
+            </div>
+            <div class="col-md-3">
+                <div class="box-1"></div>
+            </div>
+            <div class="col-md-3">
+                <div class="box-2"></div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="box-1"></div>
+            </div>
+            <div class="col-md-4">
+                <div class="box-2"></div>
+            </div>
+            <div class="col-md-4">
+                <div class="box-1"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -5,10 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: url("https://images.pexels.com/photos/942872/pexels-photo-942872.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+            height: 400px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+
+        .text-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+    </style>
 </head>
 
 <body>
-    <!-- https://zh-tw.learnlayout.com/position.html -->
+    <header>
+        <div class="text-container">
+            <h1>你在尋找專業的網頁設計？</h1>
+            <p>別讓你的網頁成為你的豬的隊友</p>
+            <a href="#">Link 1</a>
+        </div>
+    </header>
 </body>
 
 </html>
