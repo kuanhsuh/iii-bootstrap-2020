@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../components/bootstrap.css">
+    <style>
+        .logo {
+            width: 40px;
+        }
+
+        .map-responsive {
+            overflow: hidden;
+            height: 600px;
+            position: relative;
+        }
+
+        .map-responsive iframe {
+            left: 0;
+            top: 0;
+            height: 600px;
+            width: 100%;
+            position: absolute;
+        }
+
+        .form {
+            background: #e2e8f0;
+        }
+
+        footer {
+            background: #16A085;
+            color: #fff;
+        }
+
+        footer h5 {
+            border-bottom: 2px solid #fff;
+            padding-bottom: 10px;
+
+        }
+
+        .copyright {
+            background: #0e6453;
+            color: #fff;
+            font-size: 0.9rem;
+        }
+
+        .md-icon {
+            width: 30px;
+            height: 30px;
+        }
+
+        .sm-icon {
+            width: 20px;
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light  container">
+        <a class="navbar-brand" href="#"><img src="https://www.flaticon.com/svg/static/icons/svg/3226/3226191.svg"
+                alt="" class="logo">pineapple</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+
+
+            <!-- Remove search, remove disable, remove dropdown -->
+        </div>
+    </nav>
+
+    <!-- Header/Google Map -->
+    <header class="map-responsive">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1788.9239807947497!2d120.29141129630115!3d22.628164889262983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6bfdf50729279969!2z5Lit5ZyL5paH5YyW5aSn5a245o6o5buj5pWZ6IKy6YOo6auY6ZuE5pWZ6IKy5Lit5b-D!5e0!3m2!1szh-TW!2stw!4v1600155332237!5m2!1szh-TW!2stw"
+            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+    </header>
+
+    <!-- Form -->
+    <section class="py-5 ">
+        <div class="container form py-5">
+            <h2 class="text-center">Contact Sales</h2>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>First Name</label>
+                                <input type="text" class="form-control  form-control-lg">
+                            </div>
+                        </div> <!-- col-md-6 -->
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>First Name</label>
+                                <input type="text" class="form-control form-control-lg">
+                            </div>
+                        </div> <!-- col-md-6 -->
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input type="email" class="form-control form-control-lg">
+                            </div>
+                        </div>
+                    </div> <!-- row -->
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label>Company</label>
+                                <input type="text" class="form-control form-control-lg">
+                            </div>
+                        </div>
+                    </div> <!-- row -->
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label>Message</label>
+                                <textarea class="form-control" rows="10"></textarea>
+                            </div>
+                        </div>
+                    </div> <!-- row -->
+
+                    <button class="btn btn-block btn-primary btn-lg">Let's Talk</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="mb-4">Pineapple inc.</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime magnam pariatur quisquam
+                        adipisci! Quam, explicabo!</p>
+                    <div class="d-flex">
+                        <img src="https://www.flaticon.com/svg/static/icons/svg/1384/1384053.svg" alt=""
+                            class="md-icon mr-2">
+
+                        <img src="https://www.flaticon.com/svg/static/icons/svg/2111/2111463.svg" class="md-icon mr-2"
+                            alt="">
+
+                        <img src="https://www.flaticon.com/svg/static/icons/svg/174/174857.svg" class="md-icon " alt="">
+
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <h5 class="mb-4">Contact</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <img src="https://www.flaticon.com/svg/static/icons/svg/684/684809.svg" alt=""
+                                class="sm-icon">
+
+                            高雄市三民區壽昌路197號</li>
+                        <li>
+                            <img src="https://www.flaticon.com/svg/static/icons/svg/1034/1034131.svg" alt=""
+                                class="sm-icon">
+                            0911-111-222</li>
+                        <li>
+                            <img src="https://www.flaticon.com/svg/static/icons/svg/546/546394.svg" alt=""
+                                class="sm-icon">
+                            abcd@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <div class="copyright text-center py-2">
+        2020 Copyright Big Boy Reserved
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
