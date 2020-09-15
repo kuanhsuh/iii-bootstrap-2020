@@ -6,87 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="../components/bootstrap.css">
     <style>
-        footer {
-            background: #16A085;
-            color: #fff;
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
 
-        .md-icon {
-            height: 30px;
-            width: 30px;
+        .logo {
+            width: 60px
         }
 
-
-        .copyright {
-            background: #0e6453;
-            color: #74ecd4;
-            font-size: 0.9rem;
-        }
-
-        .sm-icon {
-            width: 20px;
+        form {
+            width: 350px;
         }
 
     </style>
 </head>
 
-<body>
-    <footer class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h5 class="mb-4">Apple Inc.</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam similique blanditiis nisi labore
-                        architecto</p>
-                    <div class="d-flex">
-                        <img src="https://image.flaticon.com/icons/svg/1384/1384053.svg" alt="" class="md-icon mr-2">
-                        <img src="https://image.flaticon.com/icons/svg/1409/1409946.svg" alt="" class="md-icon mr-2">
-                        <img src="https://image.flaticon.com/icons/svg/174/174857.svg" alt="" class="md-icon mr-2">
-                    </div>
-                </div>
-                <div class="col-md-4  mt-4 mt-md-0">
-                    <h5 class="mb-4">Sitemap</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#" class="text-white">Home</a></li>
-                        <li><a href="#" class="text-white">Project</a></li>
-                        <li><a href="#" class="text-white">Services</a></li>
-                        <li><a href="#" class="text-white">Blog</a></li>
-                        <li><a href="#" class="text-white">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4 mt-4 mt-md-0">
-                    <h5 class="mb-4">Contact</h5>
-                    <ul class="list-unstyled">
-                        <li>
-                            <img src="https://image.flaticon.com/icons/svg/684/684809.svg" class="sm-icon">
-                            高雄市三民區壽昌路197號</li>
-                        <li>
-                            <img src="https://image.flaticon.com/icons/svg/2947/2947981.svg" class="sm-icon">
-                            0911-111-222</li>
-                        <li>
-                            <img src="https://image.flaticon.com/icons/svg/561/561127.svg" class="sm-icon">
-                            abcd@gmail.com</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <div class="text-center copyright py-2">
-        2018 &copy; Copyright Big Boy Rights Reserved
-    </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+<body>
+    <form class="text-center">
+        <img src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" class="logo mb-4">
+        <h3 class="mb-4">Please Sign In</h3>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Email">
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-control" placeholder="Passowrd">
+        </div>
+        <div class="form-check mb-4">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+        </div>
+        <button class="btn btn-lg btn-block btn-primary">Sign In</button>
+        <div class="mt-4">2017-2018</div>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
     </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
     </script>
 </body>
 
