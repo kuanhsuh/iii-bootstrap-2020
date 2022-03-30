@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./util.css">
+    <link rel="stylesheet" href="./grid.css">
+
+    <style>
+        .max-550 {
+            width: 550px;
+            margin: 0 auto;
+        }
+
+        .form-label {
+            display: inline-block;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        .form-control {
+            display: block;
+            padding: 0.5rem 0.25rem;
+            width: 100%;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        textarea {
+            height: 200px
+        }
+
+        textarea:focus, input:focus {
+            outline: none;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #4AAF51;
+            color: white;
+            padding: 10px 30px;
+            text-decoration: none;
+            transition: all 0.5s;
+            border: none;
+        }
+
+        .btn:hover {
+            background-color: #398b3f;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="max-550">
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name:</label>
+                <input id="name" type="text" class="form-control" placeholder="Your Name..." required>
+            </div>
+            <div class="mb-3">
+                <label for="name" class="form-label">Email:</label>
+                <input id="name" type="email" class="form-control" placeholder="Your Name..." required>
+            </div>
+            <div class="mb-3">
+                <label for="name" class="form-label">Number:</label>
+                <input id="name" type="number" class="form-control" placeholder="Your Name..." required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" class="form-control" placeholder="Message..."></textarea>
+            </div>
+            <button class="btn w-100">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

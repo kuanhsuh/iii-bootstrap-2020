@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .flex {
+            /* 水平排序 */
+            display: flex;
+            /* flex-direction: column; */
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .box {
+            width: 300px;
+            height: 300px;
+            margin: 0 10px 0 10px;
+            background-color: gray;
+        }
+
+        .one {
+            height: 100px;
+            /* order: 3; */
+        }
+
+        .two {
+            height: 150px;
+        }
+
+        .three {
+            height: 200px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="flex">
+        <div class="box one">1</div>
+        <div class="box two">2</div>
+        <div class="box three">3</div>
+    </div>
+</body>
+</html>

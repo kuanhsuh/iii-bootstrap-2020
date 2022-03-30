@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/util.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/component.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="pt-2 pb-2">
+        <div class="container">
+            <div class="row justify-content-between items-center">
+                <div class="d-flex items-center">
+                    <img src="./img/coding.png" alt="" class="logo-img mr-1">
+                    Big Boy Inc.
+                </div>
+
+                <!-- Hamburger Menu -->
+                <div class="menu">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+
+                <!-- Nav List -->
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="text-container">
+            <h1>Looking for Web Design Service?</h1>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section class="pb-5 pt-5 about">
+        <div class="container max-w-680">
+            <h2 class="text-center mb-4">About Us</h2>
+            <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque placeat praesentium et eaque, optio porro sint saepe illum ea sunt mollitia atque molestias in perspiciatis odio. Veniam velit labore aspernatur. Aut, debitis nam reiciendis vitae quisquam soluta sed officiis dolorum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque placeat praesentium et eaque, optio porro sint saepe illum ea sunt mollitia atque molestias in perspiciatis odio. Veniam velit labore aspernatur. Aut, debitis nam reiciendis vitae quisquam soluta sed officiis dolorum.</p>
+        </div>
+    </section>
+
+    <!-- Cards -->
+    <section class="pt-5 pb-5" style="background-color: #F5F6FA;">
+        <div class="container">
+            <h2 class="text-center heading-2">Profile</h2>
+            <p class="text-center mb-4 lead">Lorem ipsum dolor sit amet.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://www.w3schools.com/howto/img_avatar.png" alt="">
+                        <div class="card-content">
+                            <h3 class="mb-2">John Doe</h3>
+                            <p class="mb-2">Lorem ipsum dolor sit.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mt-sm-2">
+                    <div class="card">
+                        <img src="https://www.w3schools.com/howto/img_avatar.png" alt="">
+                        <div class="card-content">
+                            <h3 class="mb-2">John Doe</h3>
+                            <p class="mb-2">Lorem ipsum dolor sit.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mt-sm-2">
+                    <div class="card">
+                        <img src="https://www.w3schools.com/howto/img_avatar.png" alt="">
+                        <div class="card-content">
+                            <h3 class="mb-2">John Doe</h3>
+                            <p class="mb-2">Lorem ipsum dolor sit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section class="pt-5 pb-5">
+        <div class="container max-550">
+            <h2 class="text-center mb-1">Contact Us</h2>
+            <p class="text-center mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, natus.</p>
+
+            <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label class="form-label">First Name:</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div> <!-- col-md-6 -->
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label class="form-label">Last Name:</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div> <!-- col-md-6 -->
+                </div> <!-- row -->
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="mb-3">
+                            <label class="form-label">Company</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label class="form-label">Phone:</label>
+                            <input type="tel" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label class="form-label">Email:</label>
+                            <input type="email" class="form-control">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" class="form-control"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <button class="btn">Submit</button>
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="pb-5 pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 class="mb-3">About Us</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus recusandae similique nam molestias qui. Aut!</p>
+                    <div class="d-flex">
+                        <img src="./img/facebook.png" alt="" class="md-icon mr-1">
+                        <img src="./img/facebook.png" alt="" class="md-icon mr-1">
+                        <img src="./img/facebook.png" alt="" class="md-icon">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="mb-3">Sitemap</h3>
+                    <!-- unordered-list -->
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-md-4">
+                    <h3 class="mb-3">Contact Us</h3>
+                    <ul>
+                        <li class="d-flex items-center">
+                            <img src="./img/pin.png" class="sm-icon mr-2">
+                            Add: 123 Main St.</li>
+                        <li class="d-flex items-center">
+                            <img src="./img/pin.png" class="sm-icon mr-2">
+                            Tel: 0955-111-222</li>
+                        <li class="d-flex items-center">
+                            <img src="./img/pin.png" class="sm-icon mr-2">
+                            Email: abc@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="text-center pt-2 pb-2 copyright">2018 &#169; Copyright Big Boy All rights Reserved.
+    </div>
+
+    <script>
+        var menu = document.querySelector(".menu");
+        var navList = document.querySelector("nav ul");
+
+        menu.addEventListener('click', function() {
+            if (navList.style.display === "none") {
+                navList.style.display = "flex"
+            } else {
+                navList.style.display = "none"
+            }
+        })
+    </script>
+</body>
+</html>
